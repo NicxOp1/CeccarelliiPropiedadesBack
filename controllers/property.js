@@ -28,7 +28,12 @@ if (req.query.rooms) {
         rooms: req.query.rooms
     }
 }
-
+if (req.query.location) {
+    query={
+        ...query,
+        location: { $regex :req.query.location, $options:'i'}
+    }
+}
         try {
             let properties = await Property.find(query)
             if(properties){
