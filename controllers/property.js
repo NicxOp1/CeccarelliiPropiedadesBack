@@ -15,6 +15,12 @@ if (req.query.min) {
         value: req.query.min
     }
 }
+if (req.query.typeProperty) {
+    query = {
+        ...query,
+        typeProperty: req.query.typeProperty
+    }
+}
 
         try {
             let properties = await Property.find(query).gte(min)
