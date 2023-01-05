@@ -22,6 +22,13 @@ if (req.query.typeProperty) {
     }
 }
 
+if (req.query.rooms) {
+    query= {
+        ...query,
+        rooms: req.query.rooms
+    }
+}
+
         try {
             let properties = await Property.find(query)
             if(properties){
