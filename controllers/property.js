@@ -23,7 +23,7 @@ if (req.query.typeProperty) {
 }
 
         try {
-            let properties = await Property.find(query).gte(min)
+            let properties = await Property.find(query)
             if(properties){
                 res.status(200).json({
                     properties,
