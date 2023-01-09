@@ -28,7 +28,12 @@ if (req.query.rooms) {
         rooms: req.query.rooms
     }
 }
-
+if (req.query.location) {
+    query={
+        ...query,
+        location: { $regex :req.query.location, $options:'i'}
+    }
+}
         try {
             let properties = await Property.find(query)
             if(properties){
@@ -42,6 +47,21 @@ if (req.query.rooms) {
             res.status(404).json({
                 success: false,
                 message: error.message
+            })
+        }
+    },
+    create: async(req,res)=>{
+        try {
+            let newProperty = await Property.create(req.body)
+            res.status(201).json({
+                success:true,
+                newProperty,
+                response: "Property created succesfully"
+            })
+        } catch (error) {
+            res.status(404).json({
+                success:false,
+                response: error.message
             })
         }
     }

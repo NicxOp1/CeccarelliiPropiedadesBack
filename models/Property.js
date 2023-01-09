@@ -14,6 +14,7 @@ const schema = new mongoose.Schema({
   antiquity: {type: Number, required: true},
   description: {type: String, required: true},
   adress: {type: String, required: true},
+  location:{type : String, required: true},
   photoProperties: [{type: String}],
   photoBluePrints: [{type: String}],
 });

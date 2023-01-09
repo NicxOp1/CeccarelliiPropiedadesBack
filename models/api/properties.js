@@ -13,6 +13,7 @@ const properties = [
     antiquity: 30,
     description: "Casa tipo chalet 5 ambientes castelar NTE",
     adress: "Miguel Lillo 2200",
+    location: "Ituzaingó Norte, Ituzaingó",
     photoProperties: [
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/43/58/1200x1200/1848020974.jpg",
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/43/58/1200x1200/1848020973.jpg",
@@ -43,6 +44,7 @@ const properties = [
     description:
       "Excelente casa tipo chalet con quincho y pileta , CASTELAR NTE jardin y cochera para 2 autos",
     adress: "chivilcoy 1600",
+    location: "Castelar, Morón",
     photoProperties: [
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/43/71/1200x1200/1848021488.jpg",
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/43/71/1200x1200/1848021489.jpg",
@@ -66,6 +68,7 @@ const properties = [
     antiquity: 30,
     description:
       "departamento de 2 ambientes ubicado en saavedra, frente a parque",
+    location: "Saavedra, Capital Federal",
     adress: "Av.Ricardo Balbin 4543",
     photoProperties: [
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/44/04/1200x1200/1848022134.jpg",
@@ -91,6 +94,7 @@ const properties = [
     description:
       "RAMOS MEJÍA SUR FRENTE BALCONES 3 AMBIENTES EN DUPLEX, 2 BAÑOS COMPLETOS, LAV, PATIO , PARRILLA. COCH/ CALEFACCIÓN DUAL INDIVIDUAL/ CON RADIADORES, CATEGORÍA. ZONA RESIDENCIAL cuenta con 2 aires BGH INVERTER",
     adress: "Necochea 1900",
+    location: "Ramos Mejía, La Matanza",
     photoProperties: [
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/44/54/1200x1200/1848024013.jpg",
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/44/54/1200x1200/1848024014.jpg",
@@ -132,6 +136,7 @@ const properties = [
     description:
       "CASTELAR NTE 8 CUADRAS DE LA ESTAC. 3 AMBIENTES. JARDÍN. COCHERA FONDO. LOTE PROPIO. TOMARÍA DEPTO M/ VALOR.",
     adress: "Zapiola 1600",
+    location: "Castelar, Morón",
     photoProperties: [
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/44/28/1200x1200/1848023367.jpg",
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/44/28/1200x1200/1848023368.jpg",
@@ -168,7 +173,8 @@ const properties = [
     antiquity: 50,
     description:
       "Depto monoambiente, frente a estacion un ambiente , apto profesional, refaccionado a exelente estado",
-    adress: "ardoino y Guemes, Ramos Mejía, La Matanza",
+    adress: "ardoino y Guemes ",
+    location: "Ramos Mejía, La Matanza",
     photoProperties: [
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/44/13/1200x1200/1848022543.jpg",
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/44/13/1200x1200/1848022546.jpg",
@@ -196,7 +202,8 @@ const properties = [
     bedrooms: 1,
     antiquity: 10,
     description: "Depto 1 amb y medio contrafrente",
-    adress: "triunvirato y cuba, Villa Luzuriaga, La Matanza",
+    adress: "triunvirato y cuba",
+    location: "Villa Luzuriaga, La Matanza",
     photoProperties: [
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/44/01/1200x1200/1848021943.jpg",
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/44/01/1200x1200/1848021950.jpg",
@@ -225,7 +232,8 @@ const properties = [
     antiquity: 2,
     description:
       "Departamento de dos ambientes ,ubicado en el edificio los tilos II, situado en el centro de Ituzaingo norte, cercano a la estacion y al polo gastronomico. La unidad , con vista al contra frente posee amplio living comedor con cocina integrada toilette de recepcion y dormitorio en suite, con placard e interiores completos. Balcon y cochera cubierta. El edificio cuenta con salon de usos multiples, terraza con parrilla y piscina en azotea",
-    adress: "general olazabal, Ituzaingó Norte, Ituzaingó",
+    adress: "general olazabal",
+    location: "Ituzaingó Norte, Ituzaingó",
     photoProperties: [
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/43/66/1200x1200/1848021182.jpg",
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/43/66/1200x1200/1848021181.jpg",
@@ -248,7 +256,8 @@ const properties = [
     antiquity: 30,
     description:
       "excelente chalet zona castelar NTE a 3 cuadras de la estacion , cuenta con cochera fondo y 3 ambientes 30 años de antiguedad refaccionada hace 2 años.",
-    adress: "rodriguez pena, Castelar, Morón",
+    adress: "rodriguez pena",
+    location: "Castelar, Morón",
     photoProperties: [
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/42/92/1200x1200/1848017880.jpg",
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/42/92/1200x1200/1848017871.jpg",
@@ -281,7 +290,8 @@ const properties = [
     bedrooms: 2,
     antiquity: 40,
     description: "Departamento en santa teresita , excelente ubicacion",
-    adress: "calle 3, Santa Teresita, Buenos Aires Costa Atlántica",
+    adress: "calle 3",
+    location: "Santa Teresita, Buenos Aires Costa Atlántica",
     photoProperties: [
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/42/41/1200x1200/1848015848.jpg",
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/42/41/1200x1200/1848015843.jpg",
@@ -309,7 +319,8 @@ const properties = [
     antiquity: 4,
     description:
       "Ramos Mejía NTE a 4 Cuadras de la estacion Cochera cub ind. Dos Ambientes Categoría, Calefaccion ind.",
-    adress: "Av.Gaona 2100, Ramos Mejía, La Matanza",
+    adress: "Av.Gaona 2100",
+    location: "Ramos Mejía, La Matanza",
     photoProperties: [
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/07/33/1200x1200/1847930095.jpg",
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/90/07/33/1200x1200/1847930088.jpg",
@@ -352,6 +363,7 @@ properties.forEach( e =>{
         bedrooms: e.bedrooms,
         antiquity: e.antiquity,
         description: e.description,
+        location:e.location,
         adress:e.adress,
         photoProperties: e.photoProperties,
         photoBluePrints: e.photoBluePrints
