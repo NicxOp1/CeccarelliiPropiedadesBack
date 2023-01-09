@@ -49,6 +49,21 @@ if (req.query.location) {
                 message: error.message
             })
         }
+    },
+    create: async(req,res)=>{
+        try {
+            let newProperty = await Property.create(req.body)
+            res.status(201).json({
+                success:true,
+                newProperty,
+                response: "Property created succesfully"
+            })
+        } catch (error) {
+            res.status(404).json({
+                success:false,
+                response: error.message
+            })
+        }
     }
 }
 
