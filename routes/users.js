@@ -7,11 +7,11 @@ const schemaSignIn = require ('../schemas/signIn')
 const mustSignIn =  require ('../middlewares/mustSignIn')
 const accountExistsSignIn = require('../middlewares/accountExistsSignIn')
 const passport = require ('../config/passport')
-const accountHasBeenVerified = require('../middlewares/accountHasBeenVerified')
+
 
 router.post('/',validator(schema), accountExists,register)
 
-router.post('/signin',validator(schemaSignIn), accountExistsSignIn,accountHasBeenVerified ,entry)
+router.post('/signin',validator(schemaSignIn), accountExistsSignIn ,entry)
 router.post('/token', passport.authenticate("jwt", { session: false }), mustSignIn, loginWithToken);
 router.put("/signout",passport.authenticate("jwt", { session: false }),unlogin);
 router.get('/me/:id',passport.authenticate("jwt", { session: false }) ,readUserData)

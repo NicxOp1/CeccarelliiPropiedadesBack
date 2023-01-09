@@ -1,7 +1,6 @@
 const User = require("../models/User");
 const bcryptjs = require("bcryptjs");
 const crypto = require("crypto");
-const accountVerificationEmail = require("../middlewares/accountVerificationEmail");
 const {
   userSignedUpResponse,
   userNotFoundResponse,
